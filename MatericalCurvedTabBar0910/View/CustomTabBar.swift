@@ -28,9 +28,9 @@ struct CustomTabBar: View {
         
         TabView(selection: $currentTab) {
             
-            Text("Home")
+            Home()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color("BG").ignoresSafeArea())
+                .background(Color.white.ignoresSafeArea())
                 .tag(Tab.Home)
             
             Text("Search")
@@ -70,7 +70,7 @@ struct CustomTabBar: View {
         )
         .ignoresSafeArea(.container, edges: .bottom)
         //always dark
-        .preferredColorScheme(.dark)
+//        .preferredColorScheme(.dark)
     }
     
     //tabbutton...

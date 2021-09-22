@@ -14,6 +14,8 @@
 		0214121E26EAEF9200E02EED /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214121D26EAEF9200E02EED /* CustomTabBar.swift */; };
 		0214122026EB22DD00E02EED /* MaterialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214121F26EB22DC00E02EED /* MaterialEffect.swift */; };
 		0214122226EB294E00E02EED /* BottomCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0214122126EB294E00E02EED /* BottomCurve.swift */; };
+		02DC4A5E26F1DDE400EEE413 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DC4A5D26F1DDE400EEE413 /* Home.swift */; };
+		02DC4A6026F1E47900EEE413 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DC4A5F26F1E47900EEE413 /* Furniture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		0214121D26EAEF9200E02EED /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		0214121F26EB22DC00E02EED /* MaterialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialEffect.swift; sourceTree = "<group>"; };
 		0214122126EB294E00E02EED /* BottomCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCurve.swift; sourceTree = "<group>"; };
+		02DC4A5D26F1DDE400EEE413 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		02DC4A5F26F1E47900EEE413 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 		0214120B26EAED5800E02EED /* MatericalCurvedTabBar0910 */ = {
 			isa = PBXGroup;
 			children = (
+				02DC4A5C26F1DD3D00EEE413 /* Model */,
 				0214121C26EAEE8000E02EED /* View */,
 				0214120C26EAED5800E02EED /* MatericalCurvedTabBar0910App.swift */,
 				0214120E26EAED5800E02EED /* ContentView.swift */,
@@ -80,8 +85,17 @@
 				0214121D26EAEF9200E02EED /* CustomTabBar.swift */,
 				0214121F26EB22DC00E02EED /* MaterialEffect.swift */,
 				0214122126EB294E00E02EED /* BottomCurve.swift */,
+				02DC4A5D26F1DDE400EEE413 /* Home.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		02DC4A5C26F1DD3D00EEE413 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02DC4A5F26F1E47900EEE413 /* Furniture.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +172,9 @@
 				0214121E26EAEF9200E02EED /* CustomTabBar.swift in Sources */,
 				0214122226EB294E00E02EED /* BottomCurve.swift in Sources */,
 				0214120D26EAED5800E02EED /* MatericalCurvedTabBar0910App.swift in Sources */,
+				02DC4A5E26F1DDE400EEE413 /* Home.swift in Sources */,
 				0214122026EB22DD00E02EED /* MaterialEffect.swift in Sources */,
+				02DC4A6026F1E47900EEE413 /* Furniture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
